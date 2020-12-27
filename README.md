@@ -78,6 +78,7 @@ made for beginners.
 - `robot.servo.getAngle()` - gets the intended angle of the servo
 	- `return` (int) the angle of the servo. may not exactly match `robot.servo.setAngle()`
 - `robot.sensor.getDistance()` - gets the current distance measured by the ultrasonics sensor. 
+
 	**note**: please do not call this more than around 10 times a second. accuracy is greatly diminished.
 	- `return` (float) the distance measured by the sensor in centimeters (cm).
 
