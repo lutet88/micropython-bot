@@ -83,7 +83,9 @@ made for beginners.
 
 ### how to use MicroPython
  Make sure you're using uPyCraft or Thonny or any other MicroPython IDE. I recommend uPyCraft. [Here's a good quick-start tutorial for it.](https://maker.pro/esp8266/tutorial/using-micropython-on-an-esp8266-with-upycraft)
+ 
  Connect to your controller (on Windows, it's a COM port, and on Linux, it's probably /dev/ttyUSBx)
+ 
  MicroPython controllers run Python in this fashion:
 
 `reset or start` -> `boot.py` -> `main.py` -> `REPL`
