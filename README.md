@@ -5,7 +5,7 @@ micropython bot and software for a class I'm teaching
 
  - esp32 or esp8266 (not tested)
  - https://github.com/rsc1975/micropython-hcsr04 library (included in codebase)
- - bot specs in `robot.md`
+ - bot specs in [`robot.md`](https://github.com/lutet88/micropython-bot/blob/main/robot.md)
 
 ## API reference (`robot.py`)
 
