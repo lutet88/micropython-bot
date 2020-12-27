@@ -1,5 +1,6 @@
 # micropython-bot
-micropython bot and software for a class I'm teaching
+driving software for a simple micropython bot.
+made for beginners.
 
 ## requirements
 
