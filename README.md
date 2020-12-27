@@ -87,15 +87,25 @@ To test the robot library you can `import test` in `main.py`. `test.py` is a tes
 ### modifying `robot.py`
 to make my `robot.py` work with your `robot`,  you may have to 
 - change definitions:
+
 `SERVO_MIN` - minimum duty out of 1024 
+
 `SERVO_MID` - midpoint (0 degrees) duty out of 1024
+
 `SERVO_MAX` - maximum duty out of 1024
+
 `SERVO_FREQ` - frequency of PWM driving servo
+
 `SERVO_ANGLE` - angle range of servo when converting from angle to duty
+
 `MOTOR_OFF` - minimum duty of motor out of 1024
+
 `MOTOR_MAX` - maximum duty of motor out of 1024
+
 `MOTOR_FREQ` - frequency of PWM driving motors
+
 - add more servos
+
 create more `Servo` objects around line 245
 
 if you're doing more than that I assume you know what you're doing.
