@@ -7,4 +7,4 @@
 - SG91R Microservo
 - Powered 6-30V
 
-![micropython bot](https://imgur.com/a/vTbrvwG)
+![micropython bot](https://i.imgur.com/XoQcl3v.jpg)
