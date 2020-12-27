@@ -48,7 +48,7 @@ made for beginners.
 - `robot.motors.rightMotor(speed)` - sets speed of right motor.
 	- float `speed`: speed between 0 and 100
 - `robot.motors.leftMotor(speed)` - sets speed of left motor.
-	-float  `speed`: speed between 0 and 100
+	- float  `speed`: speed between 0 and 100
 - `robot.motors.forward(speed, ms)` - moves the robot forward for a specified period of time.
 	- float `speed`: speed between 0 and 100
 	- int `ms`: time to move in ms
