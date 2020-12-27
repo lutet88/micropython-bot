@@ -10,21 +10,32 @@ micropython bot and software for a class I'm teaching
 ## API reference (`robot.py`)
 
 `robot` - main library for the robot.
+
 `import robot` - imports the robot library.
 #### Global Variables
 `robot.CLOCKWISE` - defines clockwise for `robot.motors.spin()`
+
 `robot.COUNTERCLOCKWISE` - defines counterclockwise for `robot.motors.spin()`
+
 `robot.MOTOR_A` - pin for right motor clockwise. (defined as 32)
+
 `robot.MOTOR_B` - pin for right motor counterclockwise. (defined as 33)
+
 `robot.MOTOR_C` - pin for left motor clockwise. (defined as 12)
+
 `robot.MOTOR_D` - pin for left motor counterclockwise. (defined as 13)
+
 `robot.FRONT_SERVO` - pin for front servo (defined as 14)
+
 `robot.SR04_TRIG` - pin for the SR04 module's trigger. (defined as 25)
+
 `robot.SR04_ECHO` - pin for the SR04 module's echo. (defined as 26)
 
 #### Classes
 `robot.motors` - preinitialized MotorController object.
+
 `robot.servo` - preinitialized Servo object.
+
 `robot.sensor` - preinitialized UltrasonicSensor object.
 
 #### Methods
